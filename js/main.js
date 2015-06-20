@@ -28,8 +28,3 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
   $('.navbar-toggle:visible').click();
 });
-
-
-$('#ss-form').submit(function() { 
-  debugger; 
-});

@@ -7,7 +7,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   background-color: #000;
 }
@@ -25,7 +25,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -314,14 +314,6 @@ ul.banner-social-buttons {
   }
 }
 
-footer {
-  padding: 50px 0;
-}
-
-footer p {
-  margin: 0;
-}
-
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
@@ -417,11 +409,7 @@ body {
   display: none;
   }
 }
-
 @media(max-width:1199px) {
-  .page-scroll-next {
-  display: none;
-  }
   #partners-content {
   height: 500px;
   position: static;
@@ -434,9 +422,6 @@ body {
   }
 }
 @media(min-width:1199px) {
-  .page-scroll-next {
-  display: none;
-  }
   #partners-content {
   position:absolute;
   bottom:0;
@@ -461,4 +446,9 @@ body {
 #partners-cards,
 #partners-map {
   height: 100%;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.75;
 }
