@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile /home/fruitrescue/fruitrescue.org/coordinate/.htpasswd  
+AuthUserFile /home/fruitrescue/fruit-rescue/coordinate/.htpasswd  
 require valid-user

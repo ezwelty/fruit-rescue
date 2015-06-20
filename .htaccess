@@ -1,7 +1,6 @@
 RewriteEngine On
 RewriteBase /
-RewriteRule join join.html [L]
-
 # remove trailing slash
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)/$ /$1 [L,R=301]
+RewriteRule join join.html [L]
