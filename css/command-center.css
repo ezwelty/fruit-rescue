@@ -15,7 +15,7 @@ body {
 }
 
 #command-center {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 1em;
 }
@@ -39,4 +39,8 @@ body {
 
 #command-center .small {
  font-size: 80%;   
+}
+
+.large {
+  font-size: 125%;
 }
