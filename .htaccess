@@ -5,4 +5,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)/$ /$1 [L,R=301]
 RewriteRule join join.html [L]
 RewriteRule coordinate coordinate.html [L]
-RewriteRule #partners /index.html#recipients [R, NE]
+RewriteRule #partners /#recipients [R,NE]
