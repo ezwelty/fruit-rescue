@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /home/fruitrescue/fruit-rescue/coordinate/.htpasswd  
-require valid-user
