@@ -16,47 +16,72 @@
   
   <!-- CSS -->
   <link href="css/coordinate.css" rel="stylesheet">
+  
+  <!-- Shadowbox -->
+  <link href="lib/shadowbox-3.0.3/shadowbox.css" rel="stylesheet">
+  <script src="lib/shadowbox-3.0.3/shadowbox.js"></script>
+  <script type="text/javascript">
+    Shadowbox.init({
+      animate: false,
+      animateFade: false,
+      showOverlay: true,
+      overlayOpacity: 0.9,
+      overlayColor: "#666",
+      counterType: "default",
+      continuous: true,
+      displayCounter: true
+    });
+  </script>
 </head>
 
 <body>
+  
+  <div class="photobar">
+    <a href="img/hana-apples.o.jpg" rel="shadowbox[all]"><img src="img/hana-apples.jpg" /></a>
+    <a href="img/cara-blome-03.jpg" rel="shadowbox[all]"><img src="img/cara-blome-03.jpg" /></a>
+    <a href="img/brenda-lee-02.o.jpg" rel="shadowbox[all]"><img src="img/brenda-lee-02.jpg" /></a>
+    <a href="img/brenda-lee-01.o.jpg" rel="shadowbox[all]"><img src="img/brenda-lee-01.jpg" /></a>
+    <a href="img/harvest.o.jpg" rel="shadowbox[all]"><img src="img/harvest.jpg" /></a>
+    <a href="img/brenda-lee-05.o.jpg" rel="shadowbox[all]"><img src="img/brenda-lee-05.jpg" /></a>
+    <a href="img/cara-blome-04.jpg" rel="shadowbox[all]"><img src="img/cara-blome-04.jpg" /></a>
+    <a href="img/cara-blome-02.jpg" rel="shadowbox[all]"><img src="img/cara-blome-02.jpg" /></a>
+  </div>
+  
   <div id="command-center">
     <a class="light" href="/"><i class="fa fa-eject"></i> <span style="font-size: 110%;">Community Fruit Rescue</span></a>
     <h1 style="margin: 0 0 0.25em 0;">Coordinator Command Center</h1>
-    
     <p class="large" style="margin: 0 0 1.5em 0;">
       Thank you for stepping up to coordinate a harvest!
     </p>
-    
-    <!--
-    <p>
-      <label>0.</label>
-      If you haven't already, read the <a href="https://docs.google.com/document/d/1M3IGbK0lmPdpRRBMK8xkaX69NSmiJulPnl5uTTQnl5s/edit?usp=sharing">Coordinator Organizing Toolkit</a>.
-    </p>
-    -->
-    
-    <p>
-      <label>1.</label>
-      Choose which trees to harvest (if not your own).
-    </p>
-    <blockquote>
-      <p>
-        <label>Homeowners</label> requesting assistance &ndash; <a>map</a> <a>list</a> <i>(coming soon)</i>
-        <br><i class="small">We can only provide support for events in zip codes 80301-80305.</i>
-      </p>
-    </blockquote>
 
-    <p>
-      <label>2.</label>
-      Confirm your plans with the homeowner (it not you), then publish your itinerary to the <a>Events Form</a> <i>(coming soon)</i>. Each week, we announce upcoming harvests to our volunteers.
-    </p>
-    <ul>
-      <li>If you can bring ⅓ of the fruit to one of our <a href="http://fruitrescue.org/#recipients">recipients</a>, schedule the harvest for whenever is most convenient.
-      <li>If you need us to deliver the donated fruit, schedule the harvest on a Sunday and plan to be finished by 3pm. Volunteers will pick up the fruit between 3-5pm.
-    </ul>
-    <ul>
-      <li>Plan to visit only one site per harvest, since most volunteers leave after harvesting the first site. However, if sites are close together, feel free to schedule multiple harvests on the same day. (Consider the # and size of trees at each site and the distance between sites. It takes 10 volunteers about 30-45 minutes to harvest one tree).
-    </ul>
-      
+    <div class="section optional">
+      <p>
+        <!--<label>0.</label>-->
+        <!--Choose which trees to harvest (if not your own).-->
+        If you are coordinating a harvest for someone else, first choose which trees to harvest.
+      </p>
+      <blockquote>
+        <p>
+          <label>Homeowners</label> requesting assistance &ndash; <a>map</a> <a>list</a> <i>(coming soon)</i>
+          <br><i class="small">We can only provide support for events in zip codes 80301-80305.</i>
+        </p>
+      </blockquote>
+    </div>
+    
+    <div class="section">
+      <p>
+        <label>1.</label>
+        Confirm your plans with the homeowner (it not you), then publish your itinerary to the <a>Events Form</a> <i>(coming soon)</i>. Each week, we announce upcoming harvests to our volunteers.
+      </p>
+      <ul>
+        <li>If you can bring ⅓ of the fruit to one of our <a href="http://fruitrescue.org/#recipients">recipients</a>, schedule the harvest for whenever is most convenient.
+        <li>If you need us to deliver the donated fruit, schedule the harvest on a Sunday and plan to be finished by 3pm. Volunteers will pick up the fruit between 3-5pm.
+      </ul>
+      <ul>
+        <li>Plan to visit only one site per harvest, since most volunteers leave after harvesting the first site. However, if sites are close together, feel free to schedule multiple harvests on the same day. (Consider the # and size of trees at each site and the distance between sites. It takes 10 volunteers about 30-45 minutes to harvest one tree).
+      </ul>
+    </div>
+          
       <!--
       <div style="display:inline-block;vertical-align:top;">
         <label>Sep 28</label>
@@ -66,85 +91,102 @@
       </iframe>
       <br />
       -->
-
-    <p>
-      <label>3.</label>
-      Before the harvest, prepare the paperwork and harvesting equipment.
-    </p>
-    <blockquote>
+  
+    <div class="section">
       <p>
-        <label>Forms</label>
-        to print out &ndash; 
+        <label>2.</label>
+        Before the harvest, prepare the paperwork and harvesting equipment.
       </p>
-      <ul>
-        <li><a href="https://docs.google.com/document/d/153eHNv1YbzW5IhSQBm48UrX4SUkj9GY2bGgUuL4YL1A/edit?usp=sharing">Harvest briefing</a> &ndash; to read to participants at the start of the event.
-        <li><a href="https://docs.google.com/spreadsheets/d/1LGQRLuAh0pgnEN5lUurLfGjIcg68jbt__wRAoQngjr8/edit?usp=sharing">Sign in sheet</a> & pen &ndash; so we know who participated.
-        <li><a href="https://docs.google.com/document/d/1gMGZ2zm7THVJnP96HIpkUaIAju-8iISe_3Fg7xdyV1k/edit?usp=sharing">Release agreements</a> & pens &ndash; in case anyone didn't sign one online.
-        <li><a href="https://docs.google.com/spreadsheets/d/1QS9QyaAoKYJZzKe7aBctX5K3ph84mVmY9WQMRzodTO8/edit?usp=sharing">Harvest log</a> & pen &ndash; to record the weight of the fruit harvested.
-        <!--<br><i class="small">Pens and printed forms available for pick up by request.</i>-->
-      </ul>
+      <blockquote>
+        <p>
+          <label>Forms</label>
+          to print out &ndash; 
+        </p>
+        <ul>
+          <li><a href="https://docs.google.com/document/d/153eHNv1YbzW5IhSQBm48UrX4SUkj9GY2bGgUuL4YL1A/edit?usp=sharing">Harvest briefing</a> &ndash; to read to participants at the start of the event.
+          <li><a href="https://docs.google.com/spreadsheets/d/1LGQRLuAh0pgnEN5lUurLfGjIcg68jbt__wRAoQngjr8/edit?usp=sharing">Sign in sheet</a> & pen &ndash; so we know who participated.
+          <li><a href="https://docs.google.com/document/d/1gMGZ2zm7THVJnP96HIpkUaIAju-8iISe_3Fg7xdyV1k/edit?usp=sharing">Release agreements</a> & pens &ndash; in case anyone didn't sign one online.
+          <li><a href="https://docs.google.com/spreadsheets/d/1QS9QyaAoKYJZzKe7aBctX5K3ph84mVmY9WQMRzodTO8/edit?usp=sharing">Harvest log</a> & pen &ndash; to record the weight of the fruit harvested.
+          <!--<br><i class="small">Pens and printed forms available for pick up by request.</i>-->
+        </ul>
       
-      <p>
-        <label>Equipment</label>
-        for harvesting &ndash; 
-      </p>
-      <ul>
-        <i class="small">Provided by you / the homeowner:</i>
-        <li>Ladders &ndash; (if necessary and available).</li>
-        <li>Containers / tarps &ndash; for the ⅓ going to you / the homeowner (if desired).
+        <p>
+          <label>Equipment</label>
+          for harvesting &ndash; 
+        </p>
+        <ul>
+          <i class="small">Provided by you / the homeowner:</i>
+          <li>Ladders &ndash; (if necessary and available).</li>
+          <li>Containers / tarps &ndash; for the ⅓ going to you / the homeowner (if desired).
         
-        <br><br><i class="small">Available for pick up by request (limited supply):</i>
-        <li>Fruit picking poles
-        <li>Bathroom scales &ndash; to weigh the fruit.
-        <li>Containers &ndash; for the ⅓ (or more) going to charity.
-      </ul>
+          <br><br><i class="small">Available for pick up by request (limited supply):</i>
+          <li>Fruit picking poles
+          <li>Bathroom scales &ndash; to weigh the fruit.
+          <li>Containers &ndash; for the ⅓ (or more) going to charity.
+        </ul>
       
-      <p>
-       <label>Invite your friends!</label> :)  Encourage them to register at <a href="http://fruitrescue.org/join">fruitrescue.org/join</a> so they receive email reminders and sign the liability form online.
-      </p>
-    </blockquote>
+        <p>
+         <label>Invite your friends!</label> :)  Encourage them to register at <a href="http://fruitrescue.org/join">fruitrescue.org/join</a> so they receive email reminders and sign the liability form online.
+        </p>
+      </blockquote>
+    </div>
     
-    <p>
-      <label>4.</label>
-      During the harvest, welcome and direct participants.
-    </p>
-    <ul>
-      <li>Read them the <a href="https://docs.google.com/document/d/153eHNv1YbzW5IhSQBm48UrX4SUkj9GY2bGgUuL4YL1A/edit?usp=sharing">Harvest briefing</a>.
-      <li>Show them the sign in sheet and release forms, the fruit tree(s) to harvest, the scales and harvest log. Show them where to put fruit for you (if you want ⅓) and fruit for charity.
-      <li>Ensure they are being safe and respectful of the property and the trees, reminding them of the rules if necessary.
-      <li>If you will be moving on to another site, let them know as departure time approaches and announce the next address.
-    </ul>    
-    
-    <p>
-      <label>5.</label>
-      After the harvest, pack up the donated fruit, return borrowed equipment, and tell us how it went.
-    </p>
-    <blockquote>
+    <div class="section">
       <p>
-        <label>Recipients</label>
-        accepting fruit donations &ndash; <a href="http://fruitrescue.org/#recipients">map+list</a>
+        <label>3.</label>
+        During the harvest, welcome and direct participants.
       </p>
       <ul>
-        <li>If you are bringing the fruit to a recipient, do so right away or store it in a bear-safe area for next day delivery.
-        <li>If you arranged to have Boulder Food Rescue pick up the fruit, please put it by the curb. They will arrive between 3-5pm on the day of your harvest.
-      </ul>
-    </blockquote>
-    <blockquote>
+        <li>Read them the <a href="https://docs.google.com/document/d/153eHNv1YbzW5IhSQBm48UrX4SUkj9GY2bGgUuL4YL1A/edit?usp=sharing">Harvest briefing</a>.
+        <li>Show them the sign in sheet and release forms, the fruit tree(s) to harvest, the scales and harvest log. Show them where to put fruit for you (if you want ⅓) and fruit for charity.
+        <li>Ensure they are being safe and respectful of the property and the trees, reminding them of the rules if necessary.
+        <li>If you will be moving on to another site, let them know as departure time approaches and announce the next address.
+      </ul>    
+    </div>
+    
+    <div class="section">
       <p>
-        <label>Harvest report</label> &ndash; <a>form</a> <i>(coming soon)</i>
+        <label>4.</label>
+        After the harvest, pack up the donated fruit, return borrowed equipment, and tell us how it went.
+      </p>
+      <blockquote>
+        <p>
+          <label>Recipients</label>
+          accepting fruit donations &ndash; <a href="http://fruitrescue.org/#recipients">map+list</a>
+        </p>
+        <ul>
+          <li>If you are bringing the fruit to a recipient, do so right away or store it in a bear-safe area for next day delivery.
+          <li>If you arranged to have Boulder Food Rescue pick up the fruit, please put it by the curb. They will arrive between 3-5pm on the day of your harvest.
+        </ul>
+      </blockquote>
+      <blockquote>
+        <p>
+          <label>Fill out</label> a <a>Harvest report</a> <i>(coming soon)</i>.
+          <!--<label>Harvest report</label> &ndash; fill out the <a>form</a> <i>(coming soon)</i>-->
+        </p>
+        <p>
+          <label>Return</label> borrowed equipment.
+        </p>
+      </blockquote>
+    </div>
+    
+    <div class="section">    
+      <p>
+        <label>5.</label>
+        Congrats on being awesome, we couldn’t do this without you!
       </p>
       <ul>
-        <li>Return any borrowed equipment.
-        <li>Congrats on being awesome! We couldn’t do this without you! Now treat yourself to some apple pie! ;)
+        <li>Treat yourself to some apple pie! ;)
       </ul>
-    </blockquote>
+    </div>
     
-    <p style="margin-top: 2em;">
+    <!-- Footer -->    
+    <div id="footer">
       <i>If you have a question or need assistance, write us at</i> <a href="mailto:info@fruitrescue.org">info@fruitrescue.org</a>.
-    </p>
+    </div>
     
   </div>
-    
+      
   <!-- Google Analytics -->  
   <script src="js/google-analytics.js"></script>
 </body>
