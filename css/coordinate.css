@@ -116,6 +116,10 @@ body {
 
 /* Printing */
 
+.print-button {
+  float: right;
+}
+
 @media print {
   body {
     background: white;
@@ -123,6 +127,9 @@ body {
     font-size: 100%;
   }
   .photobar {
+    display: none;
+  }
+  .print-button {
     display: none;
   }
 }
