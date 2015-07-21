@@ -406,34 +406,34 @@ body {
 
 @media(max-width:767px) {
   .page-scroll-next {
-  display: none;
+    display: none;
   }
 }
 @media(max-width:1199px) {
   #recipients-content {
-  height: 500px;
-  position: static;
+    height: 500px;
+    position: static;
   }
   #recipients-cards {
-  width: 100%;
+    width: 100%;
   }
   #recipients-map {
-  display: none;
+    display: none;
   }
 }
 @media(min-width:1199px) {
   #recipients-content {
-  position:absolute;
-  bottom:0;
+    position: absolute;
+    bottom: 0;
   }
   #recipients-cards {
-  width: 30%;
+    width: 30%;
   }
   #recipients-map {
-  width: 68%;
+    width: 68%;
   }
   #recipients-map-link {
-  display: none;
+    display: none;
   }
 }
 

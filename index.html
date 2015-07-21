@@ -134,7 +134,7 @@
   <!-- Recipients -->
   <header id="recipients" class="intro">
     <div class="intro-body" style="padding-top: 10px;">
-      <div class="container" style="height:100% !important;">
+      <div class="container">
         <div class="row" style="height:100% !important;">
           <div class="col-lg-12 col-lg-offset-0" style="height:100% !important;position:relative;">
             <div id="recipients-header">
@@ -213,10 +213,18 @@
   
   <!-- HACK: Expand partner map size -->
   <script>
-    var headerHeight = $('#recipients-header').outerHeight();
-    $('#recipients-content').css('top', headerHeight);
-    var recipientsHeight = $('#recipients').height();
-    $('#recipients .container').css('height', recipientsHeight);
+    function resizeHacks() {
+      var headerHeight = $('#recipients-header').outerHeight();
+      $('#recipients-content').css('top', headerHeight);
+      var recipientsHeight = $('#recipients').height();
+      $('#recipients .container').css('height', recipientsHeight);
+      var bodyWidth = $('body').width();
+      if (bodyWidth < 767) {
+         $('#photobar').css('width', bodyWidth);
+      }
+    };
+    $(document).ready(resizeHacks);
+    $(window).resize(resizeHacks);
   </script>
   <!-- Google Analytics -->  
   <script src="js/google-analytics.js"></script>
