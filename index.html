@@ -133,21 +133,21 @@
   
   <!-- Recipients -->
   <header id="recipients" class="intro">
-    <div class="intro-body" style="padding-top:10px;">
+    <div class="intro-body" style="padding-top: 10px;">
       <div class="container" style="height:100% !important;">
         <div class="row" style="height:100% !important;">
           <div class="col-lg-12 col-lg-offset-0" style="height:100% !important;position:relative;">
-            <div id="partners-header">
+            <div id="recipients-header">
               <h2>Recipients</h2>
               <p><i class="fa fa-caret-right"></i>
                 We are currently delivering fruit to the following agencies. Due to the high demand for our services, we encourage people to pick and donate their fruit themselves.
               </p>
             </div>
-            <div id="partners-content">
-              <iframe id="partners-cards" src="http://www.google.com/fusiontables/embedviz?viz=CARD&amp;q=select+*+from+1hGrEthOXbVOsgwTgmGcxaJw0CSEetV-UR6jRDhAa+where+col5+%3D+1&amp;tmplt=3&amp;cpr=1" frameborder="0" scrolling="auto">
+            <div id="recipients-content">
+              <iframe id="recipients-cards" src="http://www.google.com/fusiontables/embedviz?viz=CARD&amp;q=select+*+from+1hGrEthOXbVOsgwTgmGcxaJw0CSEetV-UR6jRDhAa+where+col5+%3D+1&amp;tmplt=3&amp;cpr=1" frameborder="0" scrolling="auto">
                 Loading recipients...
               </iframe>
-              <iframe id="partners-map" src="http://www.google.com/fusiontables/embedviz?q=select+col1+from+1hGrEthOXbVOsgwTgmGcxaJw0CSEetV-UR6jRDhAa+where+col5+%3D+1&amp;viz=MAP&amp;h=false&amp;lat=39.99204576835896&amp;lng=-104.94670141601564&amp;t=1&amp;z=9&amp;l=col1&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE" frameborder="0" scrolling="0">
+              <iframe id="recipients-map" src="http://www.google.com/fusiontables/embedviz?q=select+col1+from+1hGrEthOXbVOsgwTgmGcxaJw0CSEetV-UR6jRDhAa+where+col5+%3D+1&amp;viz=MAP&amp;h=false&amp;lat=39.99204576835896&amp;lng=-104.94670141601564&amp;t=1&amp;z=9&amp;l=col1&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE" frameborder="0" scrolling="0">
                 Loading map...
               </iframe>
             </div>
@@ -213,8 +213,10 @@
   
   <!-- HACK: Expand partner map size -->
   <script>
-    var headerHeight = $('#partners-header').outerHeight();
-    $('#partners-content').css('top', headerHeight);
+    var headerHeight = $('#recipients-header').outerHeight();
+    $('#recipients-content').css('top', headerHeight);
+    var recipientsHeight = $('#recipients').height();
+    $('#recipients .container').css('height', recipientsHeight);
   </script>
   <!-- Google Analytics -->  
   <script src="js/google-analytics.js"></script>

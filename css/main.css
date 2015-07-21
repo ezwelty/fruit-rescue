@@ -410,41 +410,41 @@ body {
   }
 }
 @media(max-width:1199px) {
-  #partners-content {
+  #recipients-content {
   height: 500px;
   position: static;
   }
-  #partners-cards {
+  #recipients-cards {
   width: 100%;
   }
-  #partners-map {
+  #recipients-map {
   display: none;
   }
 }
 @media(min-width:1199px) {
-  #partners-content {
+  #recipients-content {
   position:absolute;
   bottom:0;
   }
-  #partners-cards {
+  #recipients-cards {
   width: 30%;
   }
-  #partners-map {
+  #recipients-map {
   width: 68%;
   }
-  #partners-map-link {
+  #recipients-map-link {
   display: none;
   }
 }
 
-#partners-header {
+#recipients-header {
   padding-bottom: 10px;
 }
-#partners-content {
+#recipients-content {
   width: 100%;
 }
-#partners-cards,
-#partners-map {
+#recipients-cards,
+#recipients-map {
   height: 100%;
 }
 
