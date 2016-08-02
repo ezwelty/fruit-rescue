@@ -174,7 +174,7 @@ a:focus {
   border-radius: 30px;
   font-size: 40px;
   padding: 2px 12px;
-  border: 2px solid #fff; 
+  border: 2px solid #fff;
   color: #fff;
   background: 0 0;
   -webkit-transition: background .3s ease-in-out;
@@ -208,7 +208,7 @@ a:focus {
   -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {  
+@-webkit-keyframes pulse {
   0 {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -225,7 +225,7 @@ a:focus {
   }
 }
 
-@-moz-keyframes pulse {  
+@-moz-keyframes pulse {
   0 {
     -moz-transform: scale(1);
     transform: scale(1);
@@ -353,7 +353,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
   background: rgba(0,0,0,.7);
   top: 0;
   left: 0;
@@ -363,6 +363,10 @@ body {
 #about {
   background-color: #1F8550;
   text-align: justify;
+}
+
+#harvests {
+  background-color: #900;
 }
 
 #join {
@@ -387,7 +391,7 @@ body {
 
 #contact {
   color: #eee;
-  background-color: #000;
+  background-color: #4d4d4d;
   text-align: center;
 }
 

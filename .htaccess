@@ -5,3 +5,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)/$ /$1 [L,R=301]
 RewriteRule ^join join.html [L]
 RewriteRule ^coordinate coordinate.html [L]
+Redirect 301 ^release https://goo.gl/forms/sKzLxAgZZuXjq3S43

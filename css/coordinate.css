@@ -14,6 +14,10 @@ body {
   font-weight: 300;
 }
 
+ul {
+  list-style-type: circle;
+}
+
 #command-center {
   max-width: 900px;
   margin: 0 auto;
@@ -21,7 +25,7 @@ body {
 }
 
 #command-center a {
-  background: #FFA859; 
+  background: #FFA859;
   padding: 0em .2em;
   border-radius: 2px;
   color: inherit;
@@ -35,8 +39,15 @@ body {
   background: rgba(255, 168, 89, 0);
 }
 
+#command-center a.standard {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
 #command-center h1 {
-  font-family: Montserrat, Helvetica, Arial, sans-serif;   
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
 #command-center label {
@@ -44,7 +55,7 @@ body {
 }
 
 #command-center .small {
- font-size: 80%;   
+ font-size: 80%;
 }
 
 .large {
