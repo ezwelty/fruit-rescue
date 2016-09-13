@@ -246,7 +246,7 @@ a:focus {
   padding-top: 100px;
 }
 
-.join-section {
+.participate-section {
   width: 100%;
   padding: 50px 0;
   color: #fff;
@@ -353,8 +353,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.65);
   top: 0;
   left: 0;
   position: absolute;
@@ -369,7 +368,7 @@ body {
   background-color: #900;
 }
 
-#join {
+#participate {
   background: url(../img/ff-02.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -377,16 +376,25 @@ body {
   -o-background-size: cover;
   text-align: center;
 }
-#join:after {
+#participate:after {
   content: "";
   display: block;
   height: 100%;
   width: 100%;
-  opacity: 0.65;
-  background: rgba(0,0,0,.65);
+  background: rgba(0,0,0,0.65);
   top: 0;
   left: 0;
   position: absolute;
+}
+#participate h1 {
+  margin-bottom: 0.25em;
+}
+#participate div p {
+  margin-bottom: 0.25em;
+}
+#participate div.col-lg-12 div {
+  padding: 2.5em 0;
+  border-top: 1px dashed rgba(200,200,200,0.8);
 }
 
 #contact {

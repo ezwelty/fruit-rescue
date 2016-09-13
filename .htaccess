@@ -3,6 +3,7 @@ RewriteBase /
 # remove trailing slash
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)/$ /$1 [L,R=301]
-RewriteRule ^join join.html [L]
+RewriteRule ^register register.html [L]
+RewriteRule ^join register.html [L]
 RewriteRule ^coordinate coordinate.html [L]
 RewriteRule ^release https://goo.gl/forms/sKzLxAgZZuXjq3S43 [R,L]

@@ -64,7 +64,7 @@ ul {
 
 .section {
   border: 1px solid rgba(200,200,200,0.8);
-  padding: 0 1em;
+  padding: 0 1em 0 1em;
   border-radius: 6px;
   margin: 1em 0;
   position: relative;
@@ -72,6 +72,15 @@ ul {
 
 .optional {
   border: 1px dashed rgba(200,200,200,0.8);
+}
+
+#command-center summary {
+  padding: 0.25em 0;
+  font-weight: 400;
+}
+
+#command-center details {
+  border-bottom: 1px dashed rgba(200,200,200,0.8);
 }
 
 #footer {
