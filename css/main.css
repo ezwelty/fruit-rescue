@@ -464,3 +464,119 @@ footer {
   text-align: center;
   opacity: 0.75;
 }
+
+/* --- Partners --- */
+
+#partners span,
+#sponsors span {
+  display: block;
+  font-size: 170%;
+  color: #F09A4C;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+#partners a {
+  display: inline-block;
+  height: 100px;
+  width: 19.5%;
+  border-radius: 2px;
+  border: 1px solid gray;
+  min-width: 120px;
+}
+
+#partners .falling-fruit {
+  background: url('../img/logos/falling-fruit.svg') center / 90% 90% no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+  /*width: 25%;*/
+}
+#partners .boulder-food-rescue {
+  background: url('../img/logos/boulder-food-rescue.png') center / 95px no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+  /*width: 15%;*/
+}
+#partners .boulder-bear-coalition {
+  background: url('../img/logos/boulder-bear-coalition.png') center / 100px no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+  /*width: 15%;*/
+}
+#partners .colorado-350 {
+  background: url('../img/logos/350-colorado.svg') center / 80% 70% no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+  /*width: 15%;*/
+}
+#partners .the-shed {
+  background: url('../img/logos/the-shed-wordmark.svg') center / 80% 70% no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* --- Sponsors --- */
+
+#sponsors {
+  padding: 25px 0;
+}
+
+#sponsors a {
+  display: inline-block;
+  height: 80px;
+  width: 24.5%;
+  border-radius: 2px;
+  border: 1px solid gray;
+  min-width: 120px;
+}
+
+#sponsors .fruitivity {
+  background: url('../img/logos/fruitivity.svg') center / 90% 90% no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#sponsors .one-percent {
+    background: url('../img/logos/one-percent.svg') center / 90% 90% no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#sponsors .boulder-county {
+  background: url('../img/logos/boulder-county.png') center / 70px no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#sponsors .boulder-city {
+  background: url('../img/logos/boulder-city.png') center / 70px no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* --- Logo --- */
+
+#logo {
+  margin: 10px auto;
+  border-radius: 50%;
+  background: url("../img/logos/cfr-300px.png") center / 300px no-repeat;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 210px;
+  width: 240px;
+  height: 315px;
+  width: 360px;
+}
+
+.brand-heading {
+  display: none;
+  margin-bottom: 2px;
+  line-height: 95%;
+}
+
+.brand-heading span {
+  font-weight: normal;
+  font-size:112%;
+}
+
+#title {
+  text-align: center;
+}
+
+#location-tagline {
+  font-size: 200%;
+  font-family: Montserrat;
+  margin-bottom: 5px;
+}
+
+#mission-tagline {
+  font-size: 200%;
+  margin-bottom: 50px;
+}
